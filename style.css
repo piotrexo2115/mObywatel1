@@ -139,12 +139,12 @@ body {
     position: relative;
     width: 30px;
     height: 34px;
-    opacity: 1;
     border-radius: 0 0 10px 10px;
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden; /* Ensure the eagle image doesn't overflow */
+    background-color: gray;
 }
 .eagle {
     position: absolute;
@@ -231,8 +231,8 @@ body {
     font-size: 18px;
 }
 .action-button img {
-    width: 18px; /* Updated size for smaller arrow icons */
     height: 18px; /* Updated size for smaller arrow icons */
+    margin-right: 10px;
 }
 .action-button .icon-text {
     display: flex;
